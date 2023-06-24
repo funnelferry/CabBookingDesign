@@ -1,0 +1,19 @@
+class Cab {
+  constructor(regno, model, age, fuel, driver) {
+    this.regno = regno;
+    this.model = model;
+    this.age = age;
+    this.fuel = fuel;
+    this.driver = driver;
+  }
+
+  updateFuel(newFuel) {
+    this.fuel = newFuel;
+    console.log("Fuel updated: " + newFuel);
+  }
+
+  updateDriver(newDriver) {
+    this.driver = newDriver;
+    console.log("Driver updated: " + newDriver);
+  }
+}
